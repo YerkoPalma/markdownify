@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "md",
+    "markdown",
+    "browserify",
+    "web"
+  ],
+  "license": "MIT",
+  "name": "markdownify",
+  "description": "convert markdown source to html string with metadata support",
+  "author": "YerkoPalma",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard --verbose | snazzy && tape test.js | tap-summary"
+  },
+  "repository": "YerkoPalma/markdownify",
+  "devDependencies": {
+    "snazzy": "^7.1.1",
+    "standard": "^11.0.1",
+    "tap-summary": "^4.0.0",
+    "tape": "^4.9.1"
+  }
+}
