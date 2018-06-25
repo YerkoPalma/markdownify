@@ -3,5 +3,31 @@
 
 > convert markdown source to html string with metadata support
 
+## Usage
+
+```bash
+$ browserify index.js -t markdownify > bundle.js
+
+# if you want to use plugins
+$ browserify index.js -t [ markdownify -p markdown-it-emoji ] > bundle.js
+```
+
+Now every require call to a file with extension `md|markdown` will resolve in an 
+object
+
+```js
+console.log(require('./readme.md'))
+
+// {
+    document: <parsed markdown>,
+    meta: <meta data>
+// }
+```
+## Install
+
+```bash
+$ npm install --save-dev @yerkopalma/markdownify
+```
+
 ## License
 [MIT](/license)

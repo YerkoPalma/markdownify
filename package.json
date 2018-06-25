@@ -20,9 +20,15 @@
   },
   "repository": "YerkoPalma/markdownify",
   "devDependencies": {
+    "browserify": "^16.2.2",
     "snazzy": "^7.1.1",
     "standard": "^11.0.1",
     "tap-summary": "^4.0.0",
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "markdown-it": "^8.4.1",
+    "markdown-it-meta": "0.0.1",
+    "through": "^2.3.8"
   }
 }
