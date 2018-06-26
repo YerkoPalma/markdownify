@@ -9,7 +9,7 @@
   "name": "@yerkopalma/markdownify",
   "description": "convert markdown source to html string with metadata support",
   "author": "YerkoPalma",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "files": [
     "index.js"
