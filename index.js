@@ -19,8 +19,12 @@ module.exports = function markdownify (file, opts) {
     const md = new MarkdownIt()
     md.use(meta)
     if (opts.plugins) {
-      for (let plugin of opts.plugins) {
-        md.use(require(plugin))
+      if (Array.isArray(opts.plugins)) {
+        for (let plugin of opts.plugins) {
+          md.use(require(plugin))
+        }
+      } else {
+        md.use(require(opts.plugins))
       }
     }
 
