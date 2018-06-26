@@ -6,7 +6,7 @@
     "web"
   ],
   "license": "MIT",
-  "name": "markdownify",
+  "name": "@yerkopalma/markdownify",
   "description": "convert markdown source to html string with metadata support",
   "author": "YerkoPalma",
   "version": "0.1.0",
