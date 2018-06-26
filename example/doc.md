@@ -6,6 +6,6 @@ beep:
   - baz
 ---
 
-# Testing some markdownify
+# Testing some markdownify :tada:
 
-hello **world!**
+hello H~2~O **world!**
